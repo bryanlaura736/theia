@@ -1,0 +1,641 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FileSystemWatcher | Theia TypeDoc</title>
+	<meta name="description" content="Documentation for Theia TypeDoc">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/filesystem.html">filesystem</a>
+				</li>
+				<li>
+					<a href="filesystem.filesystemwatcher-1.html">FileSystemWatcher</a>
+				</li>
+			</ul>
+			<h1>Class FileSystemWatcher</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>React to file system events, including calls originating from the
+							application or event coming from the system&#39;s filesystem directly
+						(actual file watching).</p>
+					</div>
+					<p><code>on(will|did)(create|rename|delete)</code> events solely come from application
+					usage, not from actual filesystem.</p>
+					<dl class="tsd-comment-tags">
+						<dt>deprecated</dt>
+						<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.watch</code> instead</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">FileSystemWatcher</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#filecreateemitter" class="tsd-kind-icon">file<wbr>Create<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#filedeleteemitter" class="tsd-kind-icon">file<wbr>Delete<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#filemoveemitter" class="tsd-kind-icon">file<wbr>Move<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#fileservice" class="tsd-kind-icon">file<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondidcreate" class="tsd-kind-icon">on<wbr>Did<wbr>Create</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondiddelete" class="tsd-kind-icon">on<wbr>Did<wbr>Delete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondidfailcreate" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Create</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondidfaildelete" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Delete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondidfailmove" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Move</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#ondidmove" class="tsd-kind-icon">on<wbr>Did<wbr>Move</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#onfilechangedemitter" class="tsd-kind-icon">on<wbr>File<wbr>Changed<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#onfileschanged" class="tsd-kind-icon">on<wbr>Files<wbr>Changed</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#onwillcreate" class="tsd-kind-icon">on<wbr>Will<wbr>Create</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#onwilldelete" class="tsd-kind-icon">on<wbr>Will<wbr>Delete</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#onwillmove" class="tsd-kind-icon">on<wbr>Will<wbr>Move</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#torestartall" class="tsd-kind-icon">to<wbr>Restart<wbr>All</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.filesystemwatcher-1.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.filesystemwatcher-1.html#watchfilechanges" class="tsd-kind-icon">watch<wbr>File<wbr>Changes</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="filecreateemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> file<wbr>Create<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Create<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="filesystem.fileoperationemitter-1.html" class="tsd-signature-type">FileOperationEmitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new FileOperationEmitter&lt;FileEvent&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L146">packages/filesystem/src/browser/filesystem-watcher.ts:146</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="filedeleteemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> file<wbr>Delete<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Delete<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="filesystem.fileoperationemitter-1.html" class="tsd-signature-type">FileOperationEmitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new FileOperationEmitter&lt;FileEvent&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L162">packages/filesystem/src/browser/filesystem-watcher.ts:162</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="filemoveemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> file<wbr>Move<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Move<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="filesystem.fileoperationemitter-1.html" class="tsd-signature-type">FileOperationEmitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filemoveevent-1.html" class="tsd-signature-type">FileMoveEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new FileOperationEmitter&lt;FileMoveEvent&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L178">packages/filesystem/src/browser/filesystem-watcher.ts:178</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="fileservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> file<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="filesystem.fileservice.html" class="tsd-signature-type">FileService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L195">packages/filesystem/src/browser/filesystem-watcher.ts:195</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidcreate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Create</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Create<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileCreateEmitter.onDid</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L160">packages/filesystem/src/browser/filesystem-watcher.ts:160</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>),
+									instead use <code>FileService.onDidRunUserOperation</code> for events triggered by user gestures
+								or <code>FileService.onDidRunOperation</code> triggered by user gestures and programmatically</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondiddelete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Delete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Delete<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileDeleteEmitter.onDid</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L176">packages/filesystem/src/browser/filesystem-watcher.ts:176</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>),
+									instead use <code>FileService.onDidRunUserOperation</code> for events triggered by user gestures
+								or <code>FileService.onDidRunOperation</code> triggered by user gestures and programmatically</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidfailcreate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Fail<wbr>Create</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Create<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileCreateEmitter.onDidFail</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L154">packages/filesystem/src/browser/filesystem-watcher.ts:154</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onDidFailUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidfaildelete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Fail<wbr>Delete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Delete<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileDeleteEmitter.onDidFail</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L170">packages/filesystem/src/browser/filesystem-watcher.ts:170</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onDidFailUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidfailmove" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Fail<wbr>Move</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Move<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filemoveevent-1.html" class="tsd-signature-type">FileMoveEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileMoveEmitter.onDidFail</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L186">packages/filesystem/src/browser/filesystem-watcher.ts:186</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onDidFailUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidmove" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Move</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Move<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filemoveevent-1.html" class="tsd-signature-type">FileMoveEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileMoveEmitter.onDid</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L192">packages/filesystem/src/browser/filesystem-watcher.ts:192</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>),
+									instead use <code>FileService.onDidRunUserOperation</code> for events triggered by user gestures
+								or <code>FileService.onDidRunOperation</code> triggered by user gestures and programmatically</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="onfilechangedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>File<wbr>Changed<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>File<wbr>Changed<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter-1.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filechange-1.html" class="tsd-signature-type">FileChange</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;FileChangeEvent&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L140">packages/filesystem/src/browser/filesystem-watcher.ts:140</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onfileschanged" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Files<wbr>Changed</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Files<wbr>Changed<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filechange-1.html" class="tsd-signature-type">FileChange</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.onFileChangedEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L144">packages/filesystem/src/browser/filesystem-watcher.ts:144</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onDidFilesChange</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onwillcreate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Will<wbr>Create</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Will<wbr>Create<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileCreateEmitter.onWill</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L150">packages/filesystem/src/browser/filesystem-watcher.ts:150</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onWillRunUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onwilldelete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Will<wbr>Delete</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Will<wbr>Delete<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileevent-1.html" class="tsd-signature-type">FileEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileDeleteEmitter.onWill</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L166">packages/filesystem/src/browser/filesystem-watcher.ts:166</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onWillRunUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onwillmove" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Will<wbr>Move</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Will<wbr>Move<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/filesystem.filemoveevent-1.html" class="tsd-signature-type">FileMoveEvent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.fileMoveEmitter.onWill</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L182">packages/filesystem/src/browser/filesystem-watcher.ts:182</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>since 1.4.0 - in order to support VS Code FS API (<a href="https://github.com/eclipse-theia/theia/pull/7908">https://github.com/eclipse-theia/theia/pull/7908</a>), use <code>FileService.onWillRunUserOperation</code> instead</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="todispose" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Dispose</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<span class="tsd-signature-symbol">:</span> <a href="core.disposablecollection-1.html" class="tsd-signature-type">DisposableCollection</a><span class="tsd-signature-symbol"> = new DisposableCollection()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L137">packages/filesystem/src/browser/filesystem-watcher.ts:137</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="torestartall" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Restart<wbr>All</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Restart<wbr>All<span class="tsd-signature-symbol">:</span> <a href="core.disposablecollection-1.html" class="tsd-signature-type">DisposableCollection</a><span class="tsd-signature-symbol"> = new DisposableCollection()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L138">packages/filesystem/src/browser/filesystem-watcher.ts:138</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L235">packages/filesystem/src/browser/filesystem-watcher.ts:235</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Stop watching.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L198">packages/filesystem/src/browser/filesystem-watcher.ts:198</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="watchfilechanges" class="tsd-anchor"></a>
+					<h3>watch<wbr>File<wbr>Changes</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">watch<wbr>File<wbr>Changes<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/browser/filesystem-watcher.ts#L245">packages/filesystem/src/browser/filesystem-watcher.ts:245</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Start file watching under the given uri.</p>
+								</div>
+								<p>Resolve when watching is started.
+								Return a disposable to stop file watching under the given uri.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/filesystem.html">filesystem</a>
+						<ul>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.basestat.html">Base<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.dirnode-2.html">Dir<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileaccess-1.html">File<wbr>Access</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filechange-1.html">File<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filechangeevent-1.html">File<wbr>Change<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filedownloadcommands.html">File<wbr>Download<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filedownloaddata.html">File<wbr>Download<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filemoveevent-1.html">File<wbr>Move<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filenode-2.html">File<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileresourceversion-1.html">File<wbr>Resource<wbr>Version</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileselection.html">File<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestat-1.html">File<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestat-2.html">File<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestatnode-2.html">File<wbr>Stat<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestatnodedata-2.html">File<wbr>Stat<wbr>Node<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemcommands.html">File<wbr>System<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemerror-1.html">File<wbr>System<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemutils-1.html">File<wbr>System<wbr>Utils</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.electron.html">electron</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="filesystem.filesystemwatcher-1.html" class="tsd-kind-icon">File<wbr>System<wbr>Watcher</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#filecreateemitter" class="tsd-kind-icon">file<wbr>Create<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#filedeleteemitter" class="tsd-kind-icon">file<wbr>Delete<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#filemoveemitter" class="tsd-kind-icon">file<wbr>Move<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#fileservice" class="tsd-kind-icon">file<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondidcreate" class="tsd-kind-icon">on<wbr>Did<wbr>Create</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondiddelete" class="tsd-kind-icon">on<wbr>Did<wbr>Delete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondidfailcreate" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Create</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondidfaildelete" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Delete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondidfailmove" class="tsd-kind-icon">on<wbr>Did<wbr>Fail<wbr>Move</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#ondidmove" class="tsd-kind-icon">on<wbr>Did<wbr>Move</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#onfilechangedemitter" class="tsd-kind-icon">on<wbr>File<wbr>Changed<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#onfileschanged" class="tsd-kind-icon">on<wbr>Files<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#onwillcreate" class="tsd-kind-icon">on<wbr>Will<wbr>Create</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#onwilldelete" class="tsd-kind-icon">on<wbr>Will<wbr>Delete</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#onwillmove" class="tsd-kind-icon">on<wbr>Will<wbr>Move</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#torestartall" class="tsd-kind-icon">to<wbr>Restart<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.filesystemwatcher-1.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.filesystemwatcher-1.html#watchfilechanges" class="tsd-kind-icon">watch<wbr>File<wbr>Changes</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

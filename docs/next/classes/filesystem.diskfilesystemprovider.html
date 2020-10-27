@@ -1,0 +1,1530 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DiskFileSystemProvider | Theia TypeDoc</title>
+	<meta name="description" content="Documentation for Theia TypeDoc">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/filesystem.html">filesystem</a>
+				</li>
+				<li>
+					<a href="filesystem.diskfilesystemprovider.html">DiskFileSystemProvider</a>
+				</li>
+			</ul>
+			<h1>Class DiskFileSystemProvider</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">DiskFileSystemProvider</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></li>
+					<li><a href="../interfaces/filesystem.filesystemproviderwithfilereadwritecapability.html" class="tsd-signature-type">FileSystemProviderWithFileReadWriteCapability</a></li>
+					<li><a href="../interfaces/filesystem.filesystemproviderwithopenreadwriteclosecapability.html" class="tsd-signature-type">FileSystemProviderWithOpenReadWriteCloseCapability</a></li>
+					<li><a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html" class="tsd-signature-type">FileSystemProviderWithFileFolderCopyCapability</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-parent-kind-class"><a href="../interfaces/filesystem.diskfilesystemprovider.statandlink.html" class="tsd-kind-icon">Stat<wbr>And<wbr>Link</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#buffer_size" class="tsd-kind-icon">BUFFER_<wbr>SIZE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#_capabilities" class="tsd-kind-icon">_capabilities</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#canflush" class="tsd-kind-icon">can<wbr>Flush</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#encodingservice" class="tsd-kind-icon">encoding<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#maphandletopos" class="tsd-kind-icon">map<wbr>Handle<wbr>ToPos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#ondidchangecapabilities" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Capabilities</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#ondidchangefile" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#ondidchangefileemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#onfilewatcherror" class="tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#onfilewatcherroremitter" class="tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#watcher" class="tsd-kind-icon">watcher</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#writehandles" class="tsd-kind-icon">write<wbr>Handles</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#capabilities" class="tsd-kind-icon">capabilities</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#access" class="tsd-kind-icon">access</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#close" class="tsd-kind-icon">close</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#copy" class="tsd-kind-icon">copy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#delete" class="tsd-kind-icon">delete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#docopy" class="tsd-kind-icon">do<wbr>Copy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#docopyfile" class="tsd-kind-icon">do<wbr>Copy<wbr>File</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#dodelete" class="tsd-kind-icon">do<wbr>Delete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#dowrite" class="tsd-kind-icon">do<wbr>Write</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#fspath" class="tsd-kind-icon">fs<wbr>Path</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#mkdir" class="tsd-kind-icon">mkdir</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#mkdirp" class="tsd-kind-icon">mkdirp</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#move" class="tsd-kind-icon">move</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#normalizepos" class="tsd-kind-icon">normalize<wbr>Pos</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#read" class="tsd-kind-icon">read</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#readfile" class="tsd-kind-icon">read<wbr>File</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#readfilestream" class="tsd-kind-icon">read<wbr>File<wbr>Stream</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#readdir" class="tsd-kind-icon">readdir</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#rename" class="tsd-kind-icon">rename</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#rimraf" class="tsd-kind-icon">rimraf</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#rimrafmove" class="tsd-kind-icon">rimraf<wbr>Move</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#rimrafunlink" class="tsd-kind-icon">rimraf<wbr>Unlink</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#stat" class="tsd-kind-icon">stat</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#statlink" class="tsd-kind-icon">stat<wbr>Link</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="filesystem.diskfilesystemprovider.html#tofilepath" class="tsd-kind-icon">to<wbr>File<wbr>Path</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#tofilesystemprovidererror" class="tsd-kind-icon">to<wbr>File<wbr>System<wbr>Provider<wbr>Error</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#totype" class="tsd-kind-icon">to<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#updatefile" class="tsd-kind-icon">update<wbr>File</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#updatepos" class="tsd-kind-icon">update<wbr>Pos</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="filesystem.diskfilesystemprovider.html#validatetargetdeleted" class="tsd-kind-icon">validate<wbr>Target<wbr>Deleted</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#watch" class="tsd-kind-icon">watch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#write" class="tsd-kind-icon">write</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="filesystem.diskfilesystemprovider.html#writefile" class="tsd-kind-icon">write<wbr>File</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="buffer_size" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> BUFFER_<wbr>SIZE</h3>
+					<div class="tsd-signature tsd-kind-icon">BUFFER_<wbr>SIZE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 64 * 1024</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L93">packages/filesystem/src/node/disk-file-system-provider.ts:93</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_capabilities" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _capabilities</h3>
+					<div class="tsd-signature tsd-kind-icon">_capabilities<span class="tsd-signature-symbol">:</span> <a href="../enums/filesystem.filesystemprovidercapabilities.html" class="tsd-signature-type">FileSystemProviderCapabilities</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L127">packages/filesystem/src/node/disk-file-system-provider.ts:127</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="canflush" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> can<wbr>Flush</h3>
+					<div class="tsd-signature tsd-kind-icon">can<wbr>Flush<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L315">packages/filesystem/src/node/disk-file-system-provider.ts:315</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="encodingservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> encoding<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">encoding<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="core.encodingservice.html" class="tsd-signature-type">EncodingService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L109">packages/filesystem/src/node/disk-file-system-provider.ts:109</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="maphandletopos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> map<wbr>Handle<wbr>ToPos</h3>
+					<div class="tsd-signature tsd-kind-icon">map<wbr>Handle<wbr>ToPos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Map()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L312">packages/filesystem/src/node/disk-file-system-provider.ts:312</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidchangecapabilities" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Change<wbr>Capabilities</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Capabilities<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = Event.None</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#ondidchangecapabilities">onDidChangeCapabilities</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L125">packages/filesystem/src/node/disk-file-system-provider.ts:125</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidchangefile" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Change<wbr>File</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.filechange-2.html" class="tsd-signature-type">FileChange</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.onDidChangeFileEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#ondidchangefile">onDidChangeFile</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L96">packages/filesystem/src/node/disk-file-system-provider.ts:96</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="ondidchangefileemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Did<wbr>Change<wbr>File<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter-1.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.filechange-2.html" class="tsd-signature-type">FileChange</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;readonly FileChange[]&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L95">packages/filesystem/src/node/disk-file-system-provider.ts:95</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onfilewatcherror" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>File<wbr>Watch<wbr>Error</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event-1.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.onFileWatchErrorEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#onfilewatcherror">onFileWatchError</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L99">packages/filesystem/src/node/disk-file-system-provider.ts:99</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="onfilewatcherroremitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>File<wbr>Watch<wbr>Error<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter-1.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;void&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L98">packages/filesystem/src/node/disk-file-system-provider.ts:98</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="todispose" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Dispose</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<span class="tsd-signature-symbol">:</span> <a href="core.disposablecollection-1.html" class="tsd-signature-type">DisposableCollection</a><span class="tsd-signature-symbol"> = new DisposableCollection(this.onDidChangeFileEmitter)</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L101">packages/filesystem/src/node/disk-file-system-provider.ts:101</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="watcher" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> watcher</h3>
+					<div class="tsd-signature tsd-kind-icon">watcher<span class="tsd-signature-symbol">:</span> <a href="../interfaces/filesystem.filesystemwatcherserver.html" class="tsd-signature-type">FileSystemWatcherServer</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L106">packages/filesystem/src/node/disk-file-system-provider.ts:106</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="writehandles" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> write<wbr>Handles</h3>
+					<div class="tsd-signature tsd-kind-icon">write<wbr>Handles<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Set()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L314">packages/filesystem/src/node/disk-file-system-provider.ts:314</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="capabilities" class="tsd-anchor"></a>
+					<h3>capabilities</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> capabilities<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/filesystem.filesystemprovidercapabilities.html" class="tsd-signature-type">FileSystemProviderCapabilities</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L128">packages/filesystem/src/node/disk-file-system-provider.ts:128</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../enums/filesystem.filesystemprovidercapabilities.html" class="tsd-signature-type">FileSystemProviderCapabilities</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="access" class="tsd-anchor"></a>
+					<h3>access</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">access<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, mode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#access">access</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L166">packages/filesystem/src/node/disk-file-system-provider.ts:166</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> mode: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="close" class="tsd-anchor"></a>
+					<h3>close</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">close<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#close">close</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L371">packages/filesystem/src/node/disk-file-system-provider.ts:371</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="copy" class="tsd-anchor"></a>
+					<h3>copy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">copy<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, to<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.fileoverwriteoptions.html" class="tsd-signature-type">FileOverwriteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#copy">copy</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L643">packages/filesystem/src/node/disk-file-system-provider.ts:643</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>from: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>to: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.fileoverwriteoptions.html" class="tsd-signature-type">FileOverwriteOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="delete" class="tsd-anchor"></a>
+					<h3>delete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">delete<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.filedeleteoptions-1.html" class="tsd-signature-type">FileDeleteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#delete">delete</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L495">packages/filesystem/src/node/disk-file-system-provider.ts:495</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.filedeleteoptions-1.html" class="tsd-signature-type">FileDeleteOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L905">packages/filesystem/src/node/disk-file-system-provider.ts:905</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="docopy" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Copy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Copy<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, copiedSourcesIn<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L696">packages/filesystem/src/node/disk-file-system-provider.ts:696</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> copiedSourcesIn: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="docopyfile" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Copy<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Copy<wbr>File<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, mode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L770">packages/filesystem/src/node/disk-file-system-provider.ts:770</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>mode: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="dodelete" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Delete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Delete<span class="tsd-signature-symbol">(</span>filePath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.filedeleteoptions-1.html" class="tsd-signature-type">FileDeleteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L505">packages/filesystem/src/node/disk-file-system-provider.ts:505</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>filePath: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.filedeleteoptions-1.html" class="tsd-signature-type">FileDeleteOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="dowrite" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> do<wbr>Write</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Write<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, offset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, length<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L462">packages/filesystem/src/node/disk-file-system-provider.ts:462</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+								<li>
+									<h5>offset: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>length: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="fspath" class="tsd-anchor"></a>
+					<h3>fs<wbr>Path</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">fs<wbr>Path<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#fspath">fsPath</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L174">packages/filesystem/src/node/disk-file-system-provider.ts:174</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L112">packages/filesystem/src/node/disk-file-system-provider.ts:112</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="mkdir" class="tsd-anchor"></a>
+					<h3>mkdir</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">mkdir<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#mkdir">mkdir</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L487">packages/filesystem/src/node/disk-file-system-provider.ts:487</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="mkdirp" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> mkdirp</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">mkdirp<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, mode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L721">packages/filesystem/src/node/disk-file-system-provider.ts:721</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> mode: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="move" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> move</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">move<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L599">packages/filesystem/src/node/disk-file-system-provider.ts:599</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="normalizepos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> normalize<wbr>Pos</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">normalize<wbr>Pos<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L417">packages/filesystem/src/node/disk-file-system-provider.ts:417</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.fileopenoptions.html" class="tsd-signature-type">FileOpenOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#open">open</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L317">packages/filesystem/src/node/disk-file-system-provider.ts:317</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.fileopenoptions.html" class="tsd-signature-type">FileOpenOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="read" class="tsd-anchor"></a>
+					<h3>read</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">read<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, offset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, length<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#read">read</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L396">packages/filesystem/src/node/disk-file-system-provider.ts:396</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+								<li>
+									<h5>offset: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>length: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="readfile" class="tsd-anchor"></a>
+					<h3>read<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">read<wbr>File<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#readfile">readFile</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L258">packages/filesystem/src/node/disk-file-system-provider.ts:258</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="readfilestream" class="tsd-anchor"></a>
+					<h3>read<wbr>File<wbr>Stream</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">read<wbr>File<wbr>Stream<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.filereadstreamoptions.html" class="tsd-signature-type">FileReadStreamOptions</a>, token<span class="tsd-signature-symbol">: </span><a href="../modules/core.cancellationtoken-1.html" class="tsd-signature-type">CancellationToken</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/core.readablestreamevents.html" class="tsd-signature-type">ReadableStreamEvents</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#readfilestream">readFileStream</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L268">packages/filesystem/src/node/disk-file-system-provider.ts:268</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.filereadstreamoptions.html" class="tsd-signature-type">FileReadStreamOptions</a></h5>
+								</li>
+								<li>
+									<h5>token: <a href="../modules/core.cancellationtoken-1.html" class="tsd-signature-type">CancellationToken</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/core.readablestreamevents.html" class="tsd-signature-type">ReadableStreamEvents</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="readdir" class="tsd-anchor"></a>
+					<h3>readdir</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">readdir<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/filesystem.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#readdir">readdir</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L211">packages/filesystem/src/node/disk-file-system-provider.ts:211</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/filesystem.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="rename" class="tsd-anchor"></a>
+					<h3>rename</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">rename<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, to<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.fileoverwriteoptions.html" class="tsd-signature-type">FileOverwriteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#rename">rename</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L572">packages/filesystem/src/node/disk-file-system-provider.ts:572</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>from: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>to: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.fileoverwriteoptions.html" class="tsd-signature-type">FileOverwriteOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="rimraf" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> rimraf</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">rimraf<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L517">packages/filesystem/src/node/disk-file-system-provider.ts:517</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="rimrafmove" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> rimraf<wbr>Move</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">rimraf<wbr>Move<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L524">packages/filesystem/src/node/disk-file-system-provider.ts:524</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="rimrafunlink" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> rimraf<wbr>Unlink</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">rimraf<wbr>Unlink<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L542">packages/filesystem/src/node/disk-file-system-provider.ts:542</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="stat" class="tsd-anchor"></a>
+					<h3>stat</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">stat<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.stat.html" class="tsd-signature-type">Stat</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#stat">stat</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L151">packages/filesystem/src/node/disk-file-system-provider.ts:151</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.stat.html" class="tsd-signature-type">Stat</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="statlink" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> stat<wbr>Link</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">stat<wbr>Link<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.diskfilesystemprovider.statandlink.html" class="tsd-signature-type">StatAndLink</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L178">packages/filesystem/src/node/disk-file-system-provider.ts:178</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.diskfilesystemprovider.statandlink.html" class="tsd-signature-type">StatAndLink</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="tofilepath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> to<wbr>File<wbr>Path</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>File<wbr>Path<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L869">packages/filesystem/src/node/disk-file-system-provider.ts:869</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="tofilesystemprovidererror" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> to<wbr>File<wbr>System<wbr>Provider<wbr>Error</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>File<wbr>System<wbr>Provider<wbr>Error<span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ErrnoException</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="filesystem.filesystemprovidererror.html" class="tsd-signature-type">FileSystemProviderError</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L873">packages/filesystem/src/node/disk-file-system-provider.ts:873</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>error: <span class="tsd-signature-type">ErrnoException</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="filesystem.filesystemprovidererror.html" class="tsd-signature-type">FileSystemProviderError</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="totype" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> to<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">to<wbr>Type<span class="tsd-signature-symbol">(</span>entry<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Stats</span>, symbolicLink<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>dangling<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/filesystem.filetype.html" class="tsd-signature-type">FileType</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L231">packages/filesystem/src/node/disk-file-system-provider.ts:231</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entry: <span class="tsd-signature-type">Stats</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> symbolicLink: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>dangling<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../enums/filesystem.filetype.html" class="tsd-signature-type">FileType</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="updatefile" class="tsd-anchor"></a>
+					<h3>update<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>File<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, changes<span class="tsd-signature-symbol">: </span><a href="../interfaces/plugin._plugin_-1.textdocumentcontentchangeevent.html" class="tsd-signature-type">TextDocumentContentChangeEvent</a><span class="tsd-signature-symbol">[]</span>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.fileupdateoptions.html" class="tsd-signature-type">FileUpdateOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileupdateresult.html" class="tsd-signature-type">FileUpdateResult</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#updatefile">updateFile</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L840">packages/filesystem/src/node/disk-file-system-provider.ts:840</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>changes: <a href="../interfaces/plugin._plugin_-1.textdocumentcontentchangeevent.html" class="tsd-signature-type">TextDocumentContentChangeEvent</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.fileupdateoptions.html" class="tsd-signature-type">FileUpdateOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/filesystem.fileupdateresult.html" class="tsd-signature-type">FileUpdateResult</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="updatepos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> update<wbr>Pos</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Pos<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, bytesLength<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L433">packages/filesystem/src/node/disk-file-system-provider.ts:433</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+								<li>
+									<h5>bytesLength: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="validatetargetdeleted" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> validate<wbr>Target<wbr>Deleted</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">validate<wbr>Target<wbr>Deleted<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, to<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, mode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"move"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"copy"</span>, overwrite<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L670">packages/filesystem/src/node/disk-file-system-provider.ts:670</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>from: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>to: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>mode: <span class="tsd-signature-type">"move"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"copy"</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> overwrite: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="watch" class="tsd-anchor"></a>
+					<h3>watch</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">watch<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.watchoptions.html" class="tsd-signature-type">WatchOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#watch">watch</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L806">packages/filesystem/src/node/disk-file-system-provider.ts:806</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.watchoptions.html" class="tsd-signature-type">WatchOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.disposable-1.html" class="tsd-signature-type">Disposable</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="write" class="tsd-anchor"></a>
+					<h3>write</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">write<span class="tsd-signature-symbol">(</span>fd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, offset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, length<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#write">write</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L455">packages/filesystem/src/node/disk-file-system-provider.ts:455</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fd: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+								<li>
+									<h5>offset: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>length: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="writefile" class="tsd-anchor"></a>
+					<h3>write<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">write<wbr>File<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, content<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, opts<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.filewriteoptions.html" class="tsd-signature-type">FileWriteOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html">FileSystemProviderWithFileFolderCopyCapability</a>.<a href="../interfaces/filesystem.filesystemproviderwithfilefoldercopycapability.html#writefile">writeFile</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/filesystem/src/node/disk-file-system-provider.ts#L279">packages/filesystem/src/node/disk-file-system-provider.ts:279</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>content: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+								<li>
+									<h5>opts: <a href="../interfaces/filesystem.filewriteoptions.html" class="tsd-signature-type">FileWriteOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/filesystem.html">filesystem</a>
+						<ul>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.basestat.html">Base<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.dirnode-2.html">Dir<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileaccess-1.html">File<wbr>Access</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filechange-1.html">File<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filechangeevent-1.html">File<wbr>Change<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filedownloadcommands.html">File<wbr>Download<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filedownloaddata.html">File<wbr>Download<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filemoveevent-1.html">File<wbr>Move<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filenode-2.html">File<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileresourceversion-1.html">File<wbr>Resource<wbr>Version</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.fileselection.html">File<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestat-1.html">File<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestat-2.html">File<wbr>Stat</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestatnode-2.html">File<wbr>Stat<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filestatnodedata-2.html">File<wbr>Stat<wbr>Node<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemcommands.html">File<wbr>System<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemerror-1.html">File<wbr>System<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.filesystemutils-1.html">File<wbr>System<wbr>Utils</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/filesystem.electron.html">electron</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="filesystem.diskfilesystemprovider.html" class="tsd-kind-icon">Disk<wbr>File<wbr>System<wbr>Provider</a>
+						<ul>
+							<li class=" tsd-kind-interface tsd-parent-kind-class">
+								<a href="../interfaces/filesystem.diskfilesystemprovider.statandlink.html" class="tsd-kind-icon">Stat<wbr>And<wbr>Link</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#buffer_size" class="tsd-kind-icon">BUFFER_<wbr>SIZE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#_capabilities" class="tsd-kind-icon">_capabilities</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#canflush" class="tsd-kind-icon">can<wbr>Flush</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#encodingservice" class="tsd-kind-icon">encoding<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#maphandletopos" class="tsd-kind-icon">map<wbr>Handle<wbr>ToPos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#ondidchangecapabilities" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Capabilities</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#ondidchangefile" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#ondidchangefileemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#onfilewatcherror" class="tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#onfilewatcherroremitter" class="tsd-kind-icon">on<wbr>File<wbr>Watch<wbr>Error<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#watcher" class="tsd-kind-icon">watcher</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#writehandles" class="tsd-kind-icon">write<wbr>Handles</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#capabilities" class="tsd-kind-icon">capabilities</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#access" class="tsd-kind-icon">access</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#close" class="tsd-kind-icon">close</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#copy" class="tsd-kind-icon">copy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#delete" class="tsd-kind-icon">delete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#docopy" class="tsd-kind-icon">do<wbr>Copy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#docopyfile" class="tsd-kind-icon">do<wbr>Copy<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#dodelete" class="tsd-kind-icon">do<wbr>Delete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#dowrite" class="tsd-kind-icon">do<wbr>Write</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#fspath" class="tsd-kind-icon">fs<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#mkdir" class="tsd-kind-icon">mkdir</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#mkdirp" class="tsd-kind-icon">mkdirp</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#move" class="tsd-kind-icon">move</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#normalizepos" class="tsd-kind-icon">normalize<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#open" class="tsd-kind-icon">open</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#read" class="tsd-kind-icon">read</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#readfile" class="tsd-kind-icon">read<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#readfilestream" class="tsd-kind-icon">read<wbr>File<wbr>Stream</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#readdir" class="tsd-kind-icon">readdir</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#rename" class="tsd-kind-icon">rename</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#rimraf" class="tsd-kind-icon">rimraf</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#rimrafmove" class="tsd-kind-icon">rimraf<wbr>Move</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#rimrafunlink" class="tsd-kind-icon">rimraf<wbr>Unlink</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#stat" class="tsd-kind-icon">stat</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#statlink" class="tsd-kind-icon">stat<wbr>Link</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="filesystem.diskfilesystemprovider.html#tofilepath" class="tsd-kind-icon">to<wbr>File<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#tofilesystemprovidererror" class="tsd-kind-icon">to<wbr>File<wbr>System<wbr>Provider<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#totype" class="tsd-kind-icon">to<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#updatefile" class="tsd-kind-icon">update<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#updatepos" class="tsd-kind-icon">update<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="filesystem.diskfilesystemprovider.html#validatetargetdeleted" class="tsd-kind-icon">validate<wbr>Target<wbr>Deleted</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#watch" class="tsd-kind-icon">watch</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#write" class="tsd-kind-icon">write</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="filesystem.diskfilesystemprovider.html#writefile" class="tsd-kind-icon">write<wbr>File</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

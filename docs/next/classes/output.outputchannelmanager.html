@@ -1,0 +1,879 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>OutputChannelManager | Theia TypeDoc</title>
+	<meta name="description" content="Documentation for Theia TypeDoc">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/output.html">output</a>
+				</li>
+				<li>
+					<a href="output.outputchannelmanager.html">OutputChannelManager</a>
+				</li>
+			</ul>
+			<h1>Class OutputChannelManager</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">OutputChannelManager</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/core.commandcontribution-1.html" class="tsd-signature-type">CommandContribution</a></li>
+					<li><span class="tsd-signature-type">Disposable</span></li>
+					<li><a href="../interfaces/core.resourceresolver-1.html" class="tsd-signature-type">ResourceResolver</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#_selectedchannel" class="tsd-kind-icon">_selected<wbr>Channel</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channeladdedemitter" class="tsd-kind-icon">channel<wbr>Added<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channeldeletedemitter" class="tsd-kind-icon">channel<wbr>Deleted<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channelwashiddenemitter" class="tsd-kind-icon">channel<wbr>Was<wbr>Hidden<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channelwasshownemitter" class="tsd-kind-icon">channel<wbr>Was<wbr>Shown<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channels" class="tsd-kind-icon">channels</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="output.outputchannelmanager.html#onchanneladded" class="tsd-kind-icon">on<wbr>Channel<wbr>Added</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="output.outputchannelmanager.html#onchanneldeleted" class="tsd-kind-icon">on<wbr>Channel<wbr>Deleted</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="output.outputchannelmanager.html#onchannelwashidden" class="tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Hidden</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="output.outputchannelmanager.html#onchannelwasshown" class="tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Shown</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="output.outputchannelmanager.html#onselectedchannelchanged" class="tsd-kind-icon">on<wbr>Selected<wbr>Channel<wbr>Changed</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#preferences" class="tsd-kind-icon">preferences</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#quickpickservice" class="tsd-kind-icon">quick<wbr>Pick<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#resources" class="tsd-kind-icon">resources</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#selectedchannelchangedemitter" class="tsd-kind-icon">selected<wbr>Channel<wbr>Changed<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#textmodelservice" class="tsd-kind-icon">text<wbr>Model<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#todisposeonchanneldeletion" class="tsd-kind-icon">to<wbr>Dispose<wbr>OnChannel<wbr>Deletion</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#channelcomparator" class="tsd-kind-icon">channel<wbr>Comparator</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="output.outputchannelmanager.html#selectedchannel" class="tsd-kind-icon">selected<wbr>Channel</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#createchannel" class="tsd-kind-icon">create<wbr>Channel</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#createresource" class="tsd-kind-icon">create<wbr>Resource</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#deletechannel" class="tsd-kind-icon">delete<wbr>Channel</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#getchannel" class="tsd-kind-icon">get<wbr>Channel</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#getchannels" class="tsd-kind-icon">get<wbr>Channels</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#getvisiblechannels" class="tsd-kind-icon">get<wbr>Visible<wbr>Channels</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#pick" class="tsd-kind-icon">pick</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#registercommands" class="tsd-kind-icon">register<wbr>Commands</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="output.outputchannelmanager.html#registerlisteners" class="tsd-kind-icon">register<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="output.outputchannelmanager.html#resolve" class="tsd-kind-icon">resolve</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_selectedchannel" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _selected<wbr>Channel</h3>
+					<div class="tsd-signature tsd-kind-icon">_selected<wbr>Channel<span class="tsd-signature-symbol">:</span> <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L48">packages/output/src/common/output-channel.ts:48</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="channeladdedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> channel<wbr>Added<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">channel<wbr>Added<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;{ name: string }&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L50">packages/output/src/common/output-channel.ts:50</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="channeldeletedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> channel<wbr>Deleted<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">channel<wbr>Deleted<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;{ name: string }&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L51">packages/output/src/common/output-channel.ts:51</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="channelwashiddenemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> channel<wbr>Was<wbr>Hidden<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">channel<wbr>Was<wbr>Hidden<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;{ name: string }&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L53">packages/output/src/common/output-channel.ts:53</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="channelwasshownemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> channel<wbr>Was<wbr>Shown<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">channel<wbr>Was<wbr>Shown<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>preserveFocus<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;{ name: string, preserveFocus?: boolean }&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L52">packages/output/src/common/output-channel.ts:52</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="channels" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> channels</h3>
+					<div class="tsd-signature tsd-kind-icon">channels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Map&lt;string, OutputChannel&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L46">packages/output/src/common/output-channel.ts:46</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onchanneladded" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Channel<wbr>Added</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Channel<wbr>Added<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.channelAddedEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L56">packages/output/src/common/output-channel.ts:56</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onchanneldeleted" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Channel<wbr>Deleted</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Channel<wbr>Deleted<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.channelDeletedEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L57">packages/output/src/common/output-channel.ts:57</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onchannelwashidden" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Channel<wbr>Was<wbr>Hidden</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Hidden<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.channelWasHiddenEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L59">packages/output/src/common/output-channel.ts:59</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onchannelwasshown" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Channel<wbr>Was<wbr>Shown</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Shown<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>preserveFocus<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.channelWasShownEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L58">packages/output/src/common/output-channel.ts:58</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onselectedchannelchanged" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> on<wbr>Selected<wbr>Channel<wbr>Changed</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Selected<wbr>Channel<wbr>Changed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Event</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = this.selectedChannelChangedEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L60">packages/output/src/common/output-channel.ts:60</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="preferences" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> preferences</h3>
+					<div class="tsd-signature tsd-kind-icon">preferences<span class="tsd-signature-symbol">:</span> <a href="../modules/output.html#outputpreferences" class="tsd-signature-type">OutputPreferences</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L44">packages/output/src/common/output-channel.ts:44</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="quickpickservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> quick<wbr>Pick<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">quick<wbr>Pick<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.quickpickservice-2.html" class="tsd-signature-type">QuickPickService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L38">packages/output/src/common/output-channel.ts:38</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="resources" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> resources</h3>
+					<div class="tsd-signature tsd-kind-icon">resources<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="output.outputresource.html" class="tsd-signature-type">OutputResource</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Map&lt;string, OutputResource&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L47">packages/output/src/common/output-channel.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="selectedchannelchangedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> selected<wbr>Channel<wbr>Changed<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">selected<wbr>Channel<wbr>Changed<wbr>Emitter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Emitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Emitter&lt;{ name: string } | undefined&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L54">packages/output/src/common/output-channel.ts:54</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="textmodelservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> text<wbr>Model<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">text<wbr>Model<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="monaco.monacotextmodelservice.html" class="tsd-signature-type">MonacoTextModelService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L41">packages/output/src/common/output-channel.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="todispose" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Dispose</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DisposableCollection</span><span class="tsd-signature-symbol"> = new DisposableCollection()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L62">packages/output/src/common/output-channel.ts:62</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="todisposeonchanneldeletion" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Dispose<wbr>OnChannel<wbr>Deletion</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<wbr>OnChannel<wbr>Deletion<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Disposable</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Map&lt;string, Disposable&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L63">packages/output/src/common/output-channel.ts:63</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+					<a name="channelcomparator" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> channel<wbr>Comparator</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> channelComparator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>left<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a>, right<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L265">packages/output/src/common/output-channel.ts:265</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span>left<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a>, right<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-signature">
+									<ul class="tsd-signatures tsd-kind-type-literal">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>left<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a>, right<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-parameters-title">Parameters</h4>
+											<ul class="tsd-parameters">
+												<li>
+													<h5>left: <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></h5>
+												</li>
+												<li>
+													<h5>right: <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></h5>
+												</li>
+											</ul>
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="selectedchannel" class="tsd-anchor"></a>
+					<h3>selected<wbr>Channel</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> selectedChannel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> selectedChannel<span class="tsd-signature-symbol">(</span>channel<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L278">packages/output/src/common/output-channel.ts:278</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L282">packages/output/src/common/output-channel.ts:282</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>channel: <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="createchannel" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Channel</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Channel<span class="tsd-signature-symbol">(</span>resource<span class="tsd-signature-symbol">: </span><a href="output.outputresource.html" class="tsd-signature-type">OutputResource</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L309">packages/output/src/common/output-channel.ts:309</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>resource: <a href="output.outputresource.html" class="tsd-signature-type">OutputResource</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="createresource" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Resource</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Resource<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>editorModelRef<span class="tsd-signature-symbol">: </span><a href="core.deferred-1.html" class="tsd-signature-type">Deferred</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IReference</span><span class="tsd-signature-symbol">&lt;</span><a href="monaco.monacoeditormodel.html" class="tsd-signature-type">MonacoEditorModel</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputresource.html" class="tsd-signature-type">OutputResource</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L305">packages/output/src/common/output-channel.ts:305</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <span class="tsd-signature-symbol">{ </span>editorModelRef<span class="tsd-signature-symbol">: </span><a href="core.deferred-1.html" class="tsd-signature-type">Deferred</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IReference</span><span class="tsd-signature-symbol">&lt;</span><a href="monaco.monacoeditormodel.html" class="tsd-signature-type">MonacoEditorModel</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>editor<wbr>Model<wbr>Ref<span class="tsd-signature-symbol">: </span><a href="core.deferred-1.html" class="tsd-signature-type">Deferred</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IReference</span><span class="tsd-signature-symbol">&lt;</span><a href="monaco.monacoeditormodel.html" class="tsd-signature-type">MonacoEditorModel</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputresource.html" class="tsd-signature-type">OutputResource</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="deletechannel" class="tsd-anchor"></a>
+					<h3>delete<wbr>Channel</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Channel<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L250">packages/output/src/common/output-channel.ts:250</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L274">packages/output/src/common/output-channel.ts:274</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getchannel" class="tsd-anchor"></a>
+					<h3>get<wbr>Channel</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Channel<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L181">packages/output/src/common/output-channel.ts:181</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getchannels" class="tsd-anchor"></a>
+					<h3>get<wbr>Channels</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Channels<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L257">packages/output/src/common/output-channel.ts:257</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getvisiblechannels" class="tsd-anchor"></a>
+					<h3>get<wbr>Visible<wbr>Channels</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Visible<wbr>Channels<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L261">packages/output/src/common/output-channel.ts:261</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="pick" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> pick</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">pick<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>channels<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>placeholder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L167">packages/output/src/common/output-channel.ts:167</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <span class="tsd-signature-symbol">{ </span>channels<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>placeholder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>channels<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">[]</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>placeholder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registercommands" class="tsd-anchor"></a>
+					<h3>register<wbr>Commands</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Commands<span class="tsd-signature-symbol">(</span>registry<span class="tsd-signature-symbol">: </span><a href="core.commandregistry-1.html" class="tsd-signature-type">CommandRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.commandcontribution-1.html">CommandContribution</a>.<a href="../interfaces/core.commandcontribution-1.html#registercommands">registerCommands</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L65">packages/output/src/common/output-channel.ts:65</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>registry: <a href="core.commandregistry-1.html" class="tsd-signature-type">CommandRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="registerlisteners" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> register<wbr>Listeners</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Listeners<span class="tsd-signature-symbol">(</span>channel<span class="tsd-signature-symbol">: </span><a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Disposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L209">packages/output/src/common/output-channel.ts:209</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>channel: <a href="output.outputchannel.html" class="tsd-signature-type">OutputChannel</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Disposable</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="resolve" class="tsd-anchor"></a>
+					<h3>resolve</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">resolve<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.resource-1.html" class="tsd-signature-type">Resource</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.resourceresolver-1.html">ResourceResolver</a>.<a href="../interfaces/core.resourceresolver-1.html#resolve">resolve</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/deccec6/packages/output/src/common/output-channel.ts#L294">packages/output/src/common/output-channel.ts:294</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Non-API: do not call directly.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.resource-1.html" class="tsd-signature-type">Resource</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/output.html">output</a>
+						<ul>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/output.outputcommands.html">Output<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/output.outputcontextmenu.html">Output<wbr>Context<wbr>Menu</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/output.outputuri.html">Output<wbr>Uri</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-enum tsd-parent-kind-module">
+						<a href="../enums/output.outputchannelseverity.html" class="tsd-kind-icon">Output<wbr>Channel<wbr>Severity</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module tsd-is-not-exported">
+						<a href="output.noopdragoverdockpanel.html" class="tsd-kind-icon">Noop<wbr>Drag<wbr>Over<wbr>Dock<wbr>Panel</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputchannel.html" class="tsd-kind-icon">Output<wbr>Channel</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputchannelmanager.html" class="tsd-kind-icon">Output<wbr>Channel<wbr>Manager</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#_selectedchannel" class="tsd-kind-icon">_selected<wbr>Channel</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channeladdedemitter" class="tsd-kind-icon">channel<wbr>Added<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channeldeletedemitter" class="tsd-kind-icon">channel<wbr>Deleted<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channelwashiddenemitter" class="tsd-kind-icon">channel<wbr>Was<wbr>Hidden<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channelwasshownemitter" class="tsd-kind-icon">channel<wbr>Was<wbr>Shown<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channels" class="tsd-kind-icon">channels</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#onchanneladded" class="tsd-kind-icon">on<wbr>Channel<wbr>Added</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#onchanneldeleted" class="tsd-kind-icon">on<wbr>Channel<wbr>Deleted</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#onchannelwashidden" class="tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Hidden</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#onchannelwasshown" class="tsd-kind-icon">on<wbr>Channel<wbr>Was<wbr>Shown</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#onselectedchannelchanged" class="tsd-kind-icon">on<wbr>Selected<wbr>Channel<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#preferences" class="tsd-kind-icon">preferences</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#quickpickservice" class="tsd-kind-icon">quick<wbr>Pick<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#resources" class="tsd-kind-icon">resources</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#selectedchannelchangedemitter" class="tsd-kind-icon">selected<wbr>Channel<wbr>Changed<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#textmodelservice" class="tsd-kind-icon">text<wbr>Model<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#todisposeonchanneldeletion" class="tsd-kind-icon">to<wbr>Dispose<wbr>OnChannel<wbr>Deletion</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#channelcomparator" class="tsd-kind-icon">channel<wbr>Comparator</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#selectedchannel" class="tsd-kind-icon">selected<wbr>Channel</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#createchannel" class="tsd-kind-icon">create<wbr>Channel</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#createresource" class="tsd-kind-icon">create<wbr>Resource</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#deletechannel" class="tsd-kind-icon">delete<wbr>Channel</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#getchannel" class="tsd-kind-icon">get<wbr>Channel</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#getchannels" class="tsd-kind-icon">get<wbr>Channels</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#getvisiblechannels" class="tsd-kind-icon">get<wbr>Visible<wbr>Channels</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#pick" class="tsd-kind-icon">pick</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#registercommands" class="tsd-kind-icon">register<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="output.outputchannelmanager.html#registerlisteners" class="tsd-kind-icon">register<wbr>Listeners</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="output.outputchannelmanager.html#resolve" class="tsd-kind-icon">resolve</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputcontextmenuservice.html" class="tsd-kind-icon">Output<wbr>Context<wbr>Menu<wbr>Service</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputcontribution.html" class="tsd-kind-icon">Output<wbr>Contribution</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputeditorfactory.html" class="tsd-kind-icon">Output<wbr>Editor<wbr>Factory</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputeditormodel.html" class="tsd-kind-icon">Output<wbr>Editor<wbr>Model</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputeditormodelfactory.html" class="tsd-kind-icon">Output<wbr>Editor<wbr>Model<wbr>Factory</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputresource.html" class="tsd-kind-icon">Output<wbr>Resource</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputtoolbarcontribution.html" class="tsd-kind-icon">Output<wbr>Toolbar<wbr>Contribution</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="output.outputwidget.html" class="tsd-kind-icon">Output<wbr>Widget</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/output.outputconfiguration.html" class="tsd-kind-icon">Output<wbr>Configuration</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/output.html#outputpreferences" class="tsd-kind-icon">Output<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="../modules/output.html#output_widget_kind" class="tsd-kind-icon">OUTPUT_<wbr>WIDGET_<wbr>KIND</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="../modules/output.html#outputpreferences-1" class="tsd-kind-icon">Output<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/output.html#bindoutputpreferences" class="tsd-kind-icon">bind<wbr>Output<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/output.html#createoutputpreferences" class="tsd-kind-icon">create<wbr>Output<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-parent-kind-module">
+						<a href="../modules/output.html#outputconfigschema" class="tsd-kind-icon">Output<wbr>Config<wbr>Schema</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
