@@ -238,7 +238,7 @@ export class PreferenceRegistryExtImpl implements PreferenceRegistryExt {
     private readonly OVERRIDE_PROPERTY_PATTERN = new RegExp(this.OVERRIDE_PROPERTY);
 
     private parseConfigurationData(data: { [key: string]: any }): { [key: string]: any } {
-        return Object.keys(data).reduce((result: any, key: string) => {
+        return Object.keys(data).filter(key => !key.startsWith('__proto__.')).reduce((result: any, key: string) => {
             const parts = key.split('.');
             let branch = result;
 

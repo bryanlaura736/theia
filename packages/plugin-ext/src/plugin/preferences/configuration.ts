@@ -143,6 +143,9 @@ export class ConfigurationModel {
 
     private mergeContents(source: any, target: any): void {
         for (const key of Object.keys(target)) {
+            if (key === '__proto__') {
+                continue;
+            }
             if (key in source) {
                 if (isObject(source[key]) && isObject(target[key])) {
                     this.mergeContents(source[key], target[key]);
